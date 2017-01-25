@@ -1,0 +1,38 @@
+Tabel :
+
+- fasilitas
+-- id_fasilitas
+-- nama_fasilitas
+-- deskripsi
+-- stok
+
+- minuman
+-- id_minuman
+-- nama_minuman
+-- deskripsi
+-- jenis_muniman
+
+- ruangan
+-- id_ruangan
+-- nama_ruangan
+-- kantor (1=ks tubun, 2=grha niaga thamrin)
+-- kapasitas
+-- ada conference call (0=tdk ada, 1=ada)
+
+- booking
+-- id_booking (ticket ID)
+-- id_pegawai (atau nama_pegawai)
+-- tgl_booking
+-- jam_mulai
+-- jam_selesai
+
+
+Pengelolaan :
+- CRUD fasilitas
+- CRUD minuman
+- CRUD ruangan
+- Booking ruangan
+- Tambah lama booking ruangan
+- Batal booking ruangan
+
+

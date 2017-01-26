@@ -1,4 +1,4 @@
-Tabel :
+Rencana Tabel :
 
 - fasilitas
 -- id_fasilitas

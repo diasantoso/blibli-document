@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Blibli - Booking Room</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Blibli - Booking Room</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <button type="submit" class="btn btn-primary">Log Out</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Booking Room System</h1>
+        <p>In this system, you can make and manage your booking room in Blibli.com</p>
+      </div>
+    </div>
+
+    <div class="container">
+	  <div class="row">
+		<div class="col-md-4">
+			<div class="list-group">
+            <a href="" class="list-group-item active">Booking List</a>
+            <a href="your-book.html" class="list-group-item">Your Booking</a>
+            <a href="book-room.html" class="list-group-item">Book A Room</a>
+          </div>
+		</div>
+		<div class="col-md-8">
+		  <h1 class="page-header" style="text-align:right">List Booking</h1><br/>
+		  
+		  <div class="navbar-form">
+			  Filter :&nbsp&nbsp&nbsp
+			  <select class="form-control" style="width:120px;">
+				<option value="KS. Thamrin">KS. Tubun</option>
+				<option value="KS. Tubun">KS. Thamrin</option>
+			  </select>&nbsp&nbsp&nbsp&nbsp&nbsp
+			  <input class="form-control" type="date" name="bday" style="width:170px;">
+			  &nbsp&nbsp&nbsp
+			  <button type="button" class="btn btn-primary">GO</button>
+		  </div>
+		  <br/>
+		  
+		  <div class="table-responsive">
+			<table class="table table-striped">
+			  <thead>
+				<tr>
+				  <th>ID</th>
+				  <th>Subject</th>
+				  <th>Description</th>
+				  <th>Participant</th>
+				  <th>Room</th>
+				  <th>Office</th>
+				  <th>PIC</th>
+				  <th>Date</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td>1001</td>
+				  <td>Meeting HRD</td>
+				  <td>Meeting for GS Team</td>
+				  <td>10</td>
+				  <td>101</td>
+				  <td>KS. Tubun</td>
+				  <td>Dias</td>
+				  <td>09/02/2017</td>
+				</tr>
+				<tr>
+				  <td>1002</td>
+				  <td>Meeting UI Team</td>
+				  <td>Meeting for Seoul Project</td>
+				  <td>8</td>
+				  <td>201</td>
+				  <td>KS. Thamrin</td>
+				  <td>Audine</td>
+				  <td>10/02/2017</td>
+				</tr>
+				<tr>
+				  <td>1003</td>
+				  <td>Meeting Commerce Engine Team</td>
+				  <td>Meeting for Seoul Commerce Project</td>
+				  <td>5</td>
+				  <td>301</td>
+				  <td>KS. Thamrin</td>
+				  <td>Dias</td>
+				  <td>11/02/2017</td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>
+		</div>
+	  </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2017 Blibli.com</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
